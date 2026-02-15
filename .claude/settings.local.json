@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(source:*)",
+      "Bash(uvicorn:*)",
+      "Bash(npm run dev:*)",
+      "Bash(pip install:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(python:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(taskkill:*)",
+      "WebFetch(domain:ai.google.dev)",
+      "Bash(for port in 3000 3001 3002)",
+      "Bash(do netstat -ano)",
+      "Bash(findstr:*)",
+      "Read(//c/Users/riyaz/OneDrive/Desktop/event-poster-extraction/**)",
+      "Bash(xargs:*)",
+      "Bash(done)",
+      "Bash(netstat:*)"
+    ]
+  }
+}
